@@ -1,4 +1,27 @@
+:root {
+  --primary-color: #1a73e8;
+  --secondary-color: #f1f3f4;
+  --text-color: #202124;
+}
 
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--primary-color);
+  padding: 10px;
+}
+
+header nav a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
